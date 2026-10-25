@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact et devis : Atlantic Web Studio</title>
+<meta name="description" content="Demandez un devis ou contactez Atlantic Web Studio à Pointe-Noire par WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Figtree:wght@400;500;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="w bar">
+<a class="brand" href="index.html"><svg width="38" height="38" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="22" fill="#0B7A6E"/><g fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"><path d="M9 15c4-5 8-5 13 0s9 5 13 0"/><path d="M9 22c4-5 8-5 13 0s9 5 13 0"/><path d="M9 29c4-5 8-5 13 0s9 5 13 0"/></g></svg>Atlantic Web Studio</a>
+<button class="mb" id="mb" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<nav class="nav" id="nav" aria-label="Navigation principale"><a href="services.html">Services</a><a href="offres.html">Offres</a><a href="comment-ca-marche.html">Comment ça marche</a><a href="partenaires.html">Partenaires</a><a href="contact.html" aria-current="page">Contact</a></nav>
+</div></header>
+<main>
+<section class="head"><div class="w"><h1>Contact et devis</h1><p>Décrivez votre entreprise en quelques lignes. Votre demande s’ouvre dans WhatsApp, prête à envoyer.</p></div></section>
+
+<section class="sec" id="devis"><div class="w"><div class="two">
+<form id="fm" novalidate>
+<div class="fg">
+<div><label for="n">Nom complet</label><input class="f" id="n" name="n" type="text" autocomplete="name" required></div>
+<div><label for="e">Entreprise</label><input class="f" id="e" name="e" type="text" autocomplete="organization" required></div>
+<div><label for="w">Numéro WhatsApp</label><input class="f" id="w" name="w" type="tel" autocomplete="tel" required></div>
+<div><label for="a">Type d’activité</label><select class="f" id="a" name="a"><option>Boutique ou commerce</option><option>Restaurant ou bar</option><option>Service ou artisan</option><option>Clinique, cabinet ou école</option><option>Autre</option></select></div>
+<div class="full"><label for="o">Offre souhaitée</label><select class="f" id="o" name="o"><option>Pack Gestion Essentiel</option><option>Pack Gestion Pro</option><option>Site et présence en ligne</option><option>Je ne sais pas encore</option></select></div>
+<div class="full"><label for="m">Votre besoin</label><textarea class="f" id="m" name="m" placeholder="Que voulez-vous mieux suivre : ventes, stock, dettes, factures ?"></textarea></div>
+</div>
+<div id="er" role="alert" hidden></div>
+<div class="sub"><button class="btn b3" type="submit">Préparer ma demande WhatsApp</button></div>
+<div id="ok" hidden><p>Votre demande est prête. Touchez le bouton pour l’envoyer sur WhatsApp.</p><a class="btn b3" id="wl" href="#" target="_blank" rel="noopener">Ouvrir WhatsApp</a></div>
+</form>
+<div class="ct" id="contact"><h3>Nous contacter</h3>
+<dl><dt>WhatsApp</dt><dd id="cw">[VOTRE NUMÉRO]</dd><dt>E-mail</dt><dd id="ce">[VOTRE E-MAIL]</dd><dt>Facebook</dt><dd>[VOTRE PAGE]</dd><dt>Adresse</dt><dd>Pointe-Noire, République du Congo</dd><dt>Horaires</dt><dd>[VOS HORAIRES]</dd></dl></div>
+</div></div></section>
+</main>
+<footer><div class="w"><a class="brand" href="index.html">Atlantic Web Studio</a><nav class="fn" aria-label="Pied de page"><a href="services.html">Services</a><a href="offres.html">Offres</a><a href="comment-ca-marche.html">Comment ça marche</a><a href="partenaires.html">Partenaires</a><a href="contact.html">Contact</a></nav><small>© <span id="yr">2026</span> Atlantic Web Studio, Pointe-Noire</small></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
