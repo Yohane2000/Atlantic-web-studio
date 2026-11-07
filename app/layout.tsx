@@ -20,10 +20,10 @@ const jsonLd = {
       image: `${siteUrl}/opengraph-image.png`,
       description:
         "Atlantic Web Studio est une agence digitale spécialisée dans la création de sites web, le développement d'applications sur mesure et les solutions numériques pour les entreprises.",
-      email: "yohanewagra94@gmail.com",
+      email: "dailysen9@gmail.com",
       contactPoint: {
         "@type": "ContactPoint",
-        email: "yohanewagra94@gmail.com",
+        email: "dailysen9@gmail.com",
         contactType: "customer service",
         availableLanguage: ["French"],
       },
