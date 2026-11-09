@@ -109,11 +109,11 @@ export default function Footer() {
             </p>
 
             <a
-              href="mailto:dailysen9@gmail.com"
+              href="mailto:atlanticwebst@gmail.com "
               className="mt-6 flex items-center gap-3 text-sm text-slate-300 transition-colors hover:text-blue-400"
             >
               <Mail size={18} className="text-blue-400" />
-              dailysen9@gmail.com
+                atlanticwebst@gmail.com     
             </a>
 
             <div className="mt-5 flex items-center gap-3 text-sm text-slate-400">
